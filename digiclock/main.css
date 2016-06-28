@@ -1,0 +1,18 @@
+#clock {
+	text-align: center;
+	font-family: arial-black;
+	font-size: 100px;
+	padding-top: 100px;
+}
+
+body {
+	background-color: #33cccc;
+}
+
+.black{
+	color: black;
+}
+
+.white {
+	color: white;
+}
