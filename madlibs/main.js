@@ -4,11 +4,9 @@
 // output to page
 
 function makeMadLib(noun, adjective, person) {
-	var noun = document.getElementById('noun');
-	var adjective = document.getElementById('adjective');
-	var person = document.getElementById('person');
+	var noun = document.getElementById('noun').value;
+	var adjective = document.getElementById('adjective').value;
+	var person = document.getElementById('person').value;
 	var lib = ('The ' + adjective + ' ' + noun + ' devoured ' + person + '.');
 	document.getElementById('story').innerHTML = lib; 
 }
-
-
